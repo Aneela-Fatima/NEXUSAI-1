@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #222;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #e60000;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  color: #0073e6;
+  font-size: 1.4rem;
+}
+
+/* Intro Section */
+.intro {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/* Part Section */
+.part {
+  background-color: #f9f5ff;
+  border-left: 4px solid #6a0dad;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.part h3 {
+  color: #6a0dad;
+  margin-bottom: 5px;
+}
+
+
+/* Task Section */
+.task {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8faff;
+}
+
+.task h4 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.task ul, .task ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.task li {
+  margin-bottom: 10px;
+}
+
+.task h5 {
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  header h2 {
+    font-size: 1.2rem;
+  }
+
+  .task, .part, .intro {
+    padding: 15px;
+  }
+}
